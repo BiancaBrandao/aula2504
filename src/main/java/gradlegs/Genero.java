@@ -3,7 +3,7 @@ package gradlegs;
 public class Genero {
     private int id;
     private String nome;
-
+    
     public int getId() {
         return id;
     }
@@ -12,15 +12,15 @@ public class Genero {
         if(id > 0) {
             this.id = id;
         } else {
-            System.out.println("id inválido");
+            System.out.println("Id Inválido");
         }
     }
-}
-
-public void setNome(String nome) {
+    
+    public void setNome(String nome) {
     this.nome = nome;
-}
+    }
 
-public String getNome() {
-    return nome;
+    public String getNome() {
+        return nome;
+    }
 }
